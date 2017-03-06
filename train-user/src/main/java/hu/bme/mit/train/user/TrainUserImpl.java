@@ -8,6 +8,7 @@ public class TrainUserImpl implements TrainUser {
 	private TrainController controller;
 	private int joystickPosition;
 	private int funkLevel;
+	private int workingbranch = 23;
 	
 	public int getFunkLevel(){
 		return 99;

@@ -1,5 +1,9 @@
 package hu.bme.mit.train.controller;
 
+import java.util.Date;
+
+import com.google.common.collect.Table;
+
 import hu.bme.mit.train.interfaces.TrainController;
 
 public class TrainControllerImpl implements TrainController {
@@ -7,6 +11,7 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
+	private Table<Date, Integer, Integer> tachograph;
 
 	@Override
 	public void followSpeed() {

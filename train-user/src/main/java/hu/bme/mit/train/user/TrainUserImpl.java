@@ -7,6 +7,15 @@ public class TrainUserImpl implements TrainUser {
 
 	private TrainController controller;
 	private int joystickPosition;
+	private int funkLevel;
+	
+	public int getFunkLevel(){
+		return 99;
+	}
+	
+	public void setFunkLevel(int newfunk){
+		funkLevel = newfunk;
+	}
 
 	public TrainUserImpl(TrainController controller) {
 		this.controller = controller;

@@ -56,6 +56,10 @@ public class TrainSystemTest {
 		Assert.assertEquals(15, user.getFunkLevel());
 	}
 	
-
+	@Test
+	public void test4() {
+		controller.makeatachograph();
+		Assert.assertEquals(9,controller.gettachographelementnum());
+	}
 	
 }

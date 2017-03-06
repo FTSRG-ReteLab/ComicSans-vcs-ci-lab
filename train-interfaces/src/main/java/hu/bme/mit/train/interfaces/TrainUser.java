@@ -8,4 +8,8 @@ public interface TrainUser {
 
 	void overrideJoystickPosition(int joystickPosition);
 
+	void setFunkLevel(int i);
+
+	int getFunkLevel();
+
 }

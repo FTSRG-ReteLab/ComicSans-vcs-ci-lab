@@ -49,6 +49,13 @@ public class TrainSystemTest {
 		controller.followSpeed();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
+	
+	@Test
+	public void test3() {
+		user.setFunkLevel(15);
+		Assert.assertEquals(15, user.getFunkLevel());
+	}
+	
 
 	
 }

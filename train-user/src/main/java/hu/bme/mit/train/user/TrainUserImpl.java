@@ -11,7 +11,7 @@ public class TrainUserImpl implements TrainUser {
 	private int workingbranch = 23;
 	
 	public int getFunkLevel(){
-		return 99;
+		return funkLevel;
 	}
 	
 	public void setFunkLevel(int newfunk){
